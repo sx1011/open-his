@@ -12,5 +12,6 @@ public class SystemApplication {
     public static void main(String[] args) {
         SpringApplication.run(SystemApplication.class);
         System.out.println("主系统启动成功");
+        System.out.println("hello");
     }
 }
