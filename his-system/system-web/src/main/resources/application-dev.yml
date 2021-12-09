@@ -69,10 +69,10 @@ upload:
     - image/png
     - image/bmp
 #dubbo配置
-dubbo:
-  application:
-    name: his-system-web-service
-  registry:
-    address: zookeeper://www.leige.tech:2181
-  consumer:
-    check: false
+#dubbo:
+ # application:
+  #  name: his-system-web-service
+  #registry:
+ #   address: zookeeper://www.leige.tech:2181
+ # consumer:
+  #  check: false
