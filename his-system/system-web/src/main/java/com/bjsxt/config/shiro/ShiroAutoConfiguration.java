@@ -26,9 +26,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Author: 尚学堂 雷哥
- */
+
 @Configuration
 @EnableConfigurationProperties(value = {ShiroProperties.class, RedisProperties.class})
 public class ShiroAutoConfiguration {
