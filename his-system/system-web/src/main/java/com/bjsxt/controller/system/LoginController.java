@@ -47,6 +47,7 @@ public class LoginController {
             subject.login(usernamePasswordToken);
             // 得到会话的token，也就是redis里面存的
             Serializable webToken = subject.getSession().getId();
+            ajax.put(Constants.TOKEN, webToken);
         } catch (Exception e) {
             log.error("用户名或密码不正确", e);
             ajax = AjaxResult.error(HttpStatus.ERROR, "用户名或密码不正确");
